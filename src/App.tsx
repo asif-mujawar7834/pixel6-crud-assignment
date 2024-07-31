@@ -12,18 +12,18 @@ function App() {
     <BrowserRouter>
       <DashboardLayout>
         <Routes>
-          <Route path="/pixel6-assignment" element={<Customers />} />
+          <Route path="/pixel6-crud-assignment" element={<Customers />} />
           <Route
-            path="/pixel6-assignment/add-customer"
+            path="/pixel6-crud-assignment/add-customer"
             element={<AddCustomer />}
           />
           <Route
-            path="/pixel6-assignment/customer/:id"
+            path="/pixel6-crud-assignment/customer/:id"
             element={<EditCustomer />}
           />
-          <Route path="/pixel6-assignment/emails" element={<Emails />} />
+          <Route path="/pixel6-crud-assignment/emails" element={<Emails />} />
           <Route
-            path="/pixel6-assignment/notifications"
+            path="/pixel6-crud-assignment/notifications"
             element={<Notifications />}
           />
         </Routes>
