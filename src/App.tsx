@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <DashboardLayout>
         <Routes>
-          <Route path="/pixel6-crud-assignment" element={<Customers />} />
+          <Route path="/pixel6-crud-assignment/" element={<Customers />} />
           <Route
             path="/pixel6-crud-assignment/add-customer"
             element={<AddCustomer />}
