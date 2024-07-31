@@ -13,7 +13,7 @@ export const sidebarMenus = [
     id: 1,
     label: "Customers",
     icon: <MdDashboard />,
-    path: "/pixel6-crud-assignment",
+    path: "/pixel6-crud-assignment/",
   },
   {
     id: 2,
